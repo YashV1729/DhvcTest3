@@ -1,0 +1,92 @@
+* {
+    margin: 0 !important;
+    padding: none !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 0.5;
+    padding: none;
+}
+
+.right {
+    z-index: 1;
+    flex: 0.5;
+    background: hsla(279, 83%, 70%, 1);
+    background: radial-gradient(circle, hsla(279, 83%, 70%, 1) 20%, hsla(321, 90%, 70%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(279, 83%, 70%, 1) 20%, hsla(321, 90%, 70%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(279, 83%, 70%, 1) 20%, hsla(321, 90%, 70%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C471F2", endColorstr="#F76CC6", GradientType=1);
+}
+
+h2 {
+    color: blue;
+}
+
+.threed {
+    z-index: 1;
+    width: 100%;
+}
+
+.cross {
+    display: flex;
+    margin-left: 2%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1% !important;
+    padding-bottom: 2%;
+    background: hsla(18, 76%, 85%, 1);
+    background: linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6CFBE", endColorstr="#B9DCF2", GradientType=1);
+}
+
+.button {
+    border-radius: 5%;
+    outline-width: 0cm;
+    border-style: hidden;
+    padding: 1.5%;
+}
+
+.button:hover {
+    background-color: darkorange;
+    color: whitesmoke;
+}
+
+.des {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+.desPart {
+    padding: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.desPart h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desPart p {
+    padding-left: 2%;
+}
+
+span {
+    color: blue;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.ruthwell {
+    font-weight: 700;
+    border: 5px solid purple
+}
